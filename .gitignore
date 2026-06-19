@@ -1,1 +1,49 @@
-/AlexNet/data/
+# IDE config
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints (large binary files)
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+
+# Datasets — all data/image/archive files
+data/
+dataset/
+data_cat_dog/
+**/data/
+**/dataset/
+*.ubyte
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.tsv
+*.parquet
+
+# Submission/output files
+*.csv
+submission.csv
+
+# Generated figures
+*.png
+Figure_*.png
+
+# Specific large directories
+DetectUnit/
+ElectricMeterDetect/
+dogs-vs-cats-imint-2020/
+CSIG_7/
